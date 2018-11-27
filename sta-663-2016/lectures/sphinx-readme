@@ -1,0 +1,11 @@
+To build sphinx docs:
+```
+pip install nbsphinx
+pip install cloud_sptheme
+cd lectures
+make html
+make latexpdf
+```
+
+For HTML, open _build/html/index.html
+For PDF, open _build/latex/ComputationalStatisticsinPython.pdf
